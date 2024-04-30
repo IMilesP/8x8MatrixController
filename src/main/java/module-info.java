@@ -9,6 +9,7 @@ module com.imilesp.tesmart8x8matrixcontroller {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires org.apache.commons.net;
 
     opens com.imilesp.tesmart8x8matrixcontroller to javafx.fxml;
     exports com.imilesp.tesmart8x8matrixcontroller;
