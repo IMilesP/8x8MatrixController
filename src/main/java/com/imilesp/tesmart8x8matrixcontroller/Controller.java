@@ -372,6 +372,9 @@ public class Controller {
     @FXML
     protected void mirrorMatrixIO() {
         if(matrix.mirrorMatrixIO()){
+            for(Button button: currentlyOn) {
+                buttonUnselected(button);
+            }
             syncUIToMatrixConfig();
         }
     }
