@@ -3,8 +3,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class MatrixTest {
     private Matrix matrix;
@@ -22,7 +24,8 @@ public class MatrixTest {
 
     @Test
     public void testFindMatrix() {
-        matrix.findMatrix("192.168.5.0/27");
+        boolean b = matrix.findMatrix("192.168.5.0/27");
+        assertTrue(b);
         assertEquals("192.168.005.005", matrix.reqAddress());
     } //possible bug here... sometimes fails
 
@@ -64,6 +67,54 @@ public class MatrixTest {
         matrix.loadPreset("8");
         assertEquals("LINK:O1I3;O2I3;O3I3;O4I3;O5I3;O6I3;O7I3;O8I3;END", matrix.reqConfig());
     } //bug here... maybe not reading all output from matrix?? affects doing stuff after... not an issue with reqConfig it seems...
+
+    @Test
+    public void testSaveAndLoadLabels() {
+        for(int i = 0; i < 16; i++) {
+            matrix.saveLabel("label " + (i + 1), i + 1);
+        }
+        assertEquals(new ArrayList<>(List.of(
+                "label 1",
+                "label 2",
+                "label 3",
+                "label 4",
+                "label 5",
+                "label 6",
+                "label 7",
+                "label 8",
+                "label 9",
+                "label 10",
+                "label 11",
+                "label 12",
+                "label 13",
+                "label 14",
+                "label 15",
+                "label 16"
+        )), matrix.loadLabels());
+    }
+
+    @Test
+    public void testResetLabels() {
+        matrix.resetLabels();
+        assertEquals(new ArrayList<>(List.of(
+                "Output A",
+                "Output B",
+                "Output C",
+                "Output D",
+                "Output E",
+                "Output F",
+                "Output G",
+                "Output H",
+                "Input 1",
+                "Input 2",
+                "Input 3",
+                "Input 4",
+                "Input 5",
+                "Input 6",
+                "Input 7",
+                "Input 8"
+        )), matrix.loadLabels());
+    }
 
     @Test
     public void testReqAddress() {

@@ -129,7 +129,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.imilesp.tesmart8x8matrixcontroller/com.imilesp.tesmart8x8matrixcontroller.HelloApplication
+                                com.imilesp.tesmart8x8matrixcontroller/com.imilesp.tesmart8x8matrixcontroller.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

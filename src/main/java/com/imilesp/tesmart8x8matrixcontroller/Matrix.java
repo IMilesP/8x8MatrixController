@@ -2,17 +2,34 @@ package com.imilesp.tesmart8x8matrixcontroller;
 
 import org.apache.commons.net.util.SubnetUtils;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class Matrix {
+    private File file = new File("src/main/resources/com/imilesp/tesmart8x8matrixcontroller/labels.txt");
     private Socket socket;
     private PrintWriter out;
     private BufferedReader in;
+    private static final String DEFAULT_LABELS =
+            "Output A\n" +
+            "Output B\n" +
+            "Output C\n" +
+            "Output D\n" +
+            "Output E\n" +
+            "Output F\n" +
+            "Output G\n" +
+            "Output H\n" +
+            "Input 1\n" +
+            "Input 2\n" +
+            "Input 3\n" +
+            "Input 4\n" +
+            "Input 5\n" +
+            "Input 6\n" +
+            "Input 7\n" +
+            "Input 8";
 
     /**
      * attempts to connect to the matrix at the given address and port
@@ -61,7 +78,7 @@ public class Matrix {
      * and checks for the appropriate response
      * @param subnetPlusMask (ex: "192.168.5.0/27")
      */
-    public void findMatrix(String subnetPlusMask) {
+    public boolean findMatrix(String subnetPlusMask) {
         SubnetUtils utils = new SubnetUtils(subnetPlusMask);
         String[] allIps = utils.getInfo().getAllAddresses();
         final String[] validIp = new String[1];
@@ -82,9 +99,10 @@ public class Matrix {
                 }
             }).start();
             if(connect(validIp[0], "5000")) {
-                break;
+                return true;
             }
         }
+        return false;
     }
 
     /**
@@ -180,6 +198,88 @@ public class Matrix {
             TimeUnit.MILLISECONDS.sleep(300);
         }
         catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return true;
+    }
+
+    /**
+     * returns all labels in the label file with line num corresponding
+     * to specific input or output (1 = output A -> 16 = input 8)
+     * @return list of labels as strings
+     */
+    public ArrayList<String> loadLabels() {
+        ArrayList<String> labels = new ArrayList<>();
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            for(int i = 0; i < 16; i++) {
+                String temp = br.readLine();
+                if(temp == null) {
+                    if(i == 0) {
+                        labels.add("Output A");
+                    } else if(i == 1) {
+                        labels.add("Output B");
+                    } else if(i == 2) {
+                        labels.add("Output C");
+                    } else if(i == 3) {
+                        labels.add("Output D");
+                    } else if(i == 4) {
+                        labels.add("Output E");
+                    } else if(i == 5) {
+                        labels.add("Output F");
+                    } else if(i == 6) {
+                        labels.add("Output G");
+                    } else if(i == 7) {
+                        labels.add("Output H");
+                    } else {
+                        labels.add("Input " + (i - 7));
+                    }
+                } else {
+                    labels.add(temp);
+                }
+            }
+            br.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return labels;
+    }
+
+    /**
+     * saves one label value to labels file
+     * @param label string value of label to be saved
+     * @param pos position of the label (1 = output A -> 16 = input 8)
+     * @return true if successful
+     */
+    public boolean saveLabel(String label, int pos) {
+        ArrayList<String> labels = loadLabels();
+        try {
+            BufferedWriter fw = new BufferedWriter(new FileWriter(file));
+            for(int i = 0; i < 16; i++) {
+                if(i == pos - 1) {
+                    labels.set(i, label);
+                }
+                fw.write(labels.get(i));
+                fw.newLine();
+            }
+            fw.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return true;
+    }
+
+    /**
+     * resets labels to default values (as seen on device)
+     * @return true if successful
+     */
+    public boolean resetLabels() {
+        try {
+            BufferedWriter fw = new BufferedWriter(new FileWriter(file));
+            fw.write(DEFAULT_LABELS);
+            fw.newLine();
+            fw.close();
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
         return true;
