@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Controller {
     private Matrix matrix;
-    private boolean connected; //maybe use to show successful connection??
+    private boolean connected;
 
     @FXML
     private TextInputControl subnet;
@@ -50,7 +50,7 @@ public class Controller {
     private TextArea i8;
 
     @FXML
-    public void initialize() {
+    protected void initialize() {
         matrix = new Matrix();
         connected = false;
         loadLabels();
@@ -106,7 +106,8 @@ public class Controller {
 
     @FXML
     protected void connect() {
-        if(matrix.connect(ipAddress.getText(), "5000")) {
+        connected = matrix.connect(ipAddress.getText(), "5000");
+        if(connected) {
             String config = matrix.reqConfig();
             syncUIToMatrixConfig(config);
         }
@@ -125,8 +126,6 @@ public class Controller {
         if(connected) {
             String config = matrix.reqConfig();
             syncUIToMatrixConfig(config);
-        } else {
-            //show some error toast?
         }
     }
 
@@ -134,17 +133,79 @@ public class Controller {
     protected void mirrorMatrixIO() { matrix.mirrorMatrixIO(); }
 
     @FXML
-    protected void mapInputToAllOutputs(String input) { matrix.mapInputToAllOutputs(input); } //put in UI
+    protected void mapInputOneToAllOutputs() {
+        mapInputToAllOutputs("1");
+    }
+    @FXML
+    protected void mapInputTwoToAllOutputs() {
+        mapInputToAllOutputs("2");
+    }
+    @FXML
+    protected void mapInputThreeToAllOutputs() {
+        mapInputToAllOutputs("3");
+    }
+    @FXML
+    protected void mapInputFourToAllOutputs() {
+        mapInputToAllOutputs("4");
+    }
+    @FXML
+    protected void mapInputFiveToAllOutputs() {
+        mapInputToAllOutputs("5");
+    }
+    @FXML
+    protected void mapInputSixToAllOutputs() {
+        mapInputToAllOutputs("6");
+    }
+    @FXML
+    protected void mapInputSevenToAllOutputs() {
+        mapInputToAllOutputs("7");
+    }
+    @FXML
+    protected void mapInputEightToAllOutputs() {
+        mapInputToAllOutputs("8");
+    }
+    private void mapInputToAllOutputs(String input) { matrix.mapInputToAllOutputs(input); }
 
     @FXML
     protected void mapInputToOutput(String input, String output) { matrix.mapInputToOutput(input, output); } //put in UI
 
     @FXML
-    protected void loadPreset(String slot) {
+    protected void loadPresetOne() {
+        loadPreset("1");
+    }
+    @FXML
+    protected void loadPresetTwo() {
+        loadPreset("2");
+    }
+    @FXML
+    protected void loadPresetThree() {
+        loadPreset("3");
+    }
+    @FXML
+    protected void loadPresetFour() {
+        loadPreset("4");
+    }
+    @FXML
+    protected void loadPresetFive() {
+        loadPreset("5");
+    }
+    @FXML
+    protected void loadPresetSix() {
+        loadPreset("6");
+    }
+    @FXML
+    protected void loadPresetSeven() {
+        loadPreset("7");
+    }
+    @FXML
+    protected void loadPresetEight() {
+        loadPreset("8");
+    }
+    private void loadPreset(String slot) {
         matrix.loadPreset(slot);
         String config = matrix.reqConfig();
         syncUIToMatrixConfig(config);
-    } //put in UI
+    }
 
     private void loadLabels() {
         ArrayList<String> labels = matrix.loadLabels();
@@ -167,7 +228,38 @@ public class Controller {
     }
 
     @FXML
-    protected void savePreset(String slot) { matrix.savePreset(slot); } //put in UI
+    protected void savePresetOne() {
+        savePreset("1");
+    }
+    @FXML
+    protected void savePresetTwo() {
+        savePreset("2");
+    }
+    @FXML
+    protected void savePresetThree() {
+        savePreset("3");
+    }
+    @FXML
+    protected void savePresetFour() {
+        savePreset("4");
+    }
+    @FXML
+    protected void savePresetFive() {
+        savePreset("5");
+    }
+    @FXML
+    protected void savePresetSix() {
+        savePreset("6");
+    }
+    @FXML
+    protected void savePresetSeven() {
+        savePreset("7");
+    }
+    @FXML
+    protected void savePresetEight() {
+        savePreset("8");
+    }
+    private void savePreset(String slot) { matrix.savePreset(slot); }
 
     private void saveLabel(String label, int pos) {
         matrix.saveLabel(label, pos);
