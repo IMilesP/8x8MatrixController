@@ -167,7 +167,262 @@ public class Controller {
     private void mapInputToAllOutputs(String input) { matrix.mapInputToAllOutputs(input); }
 
     @FXML
-    protected void mapInputToOutput(String input, String output) { matrix.mapInputToOutput(input, output); } //put in UI
+    protected void mapInputOneToOutputA() {
+        mapInputToOutput("1", "1");
+    }
+    @FXML
+    protected void mapInputTwoToOutputA() {
+        mapInputToOutput("2", "1");
+    }
+    @FXML
+    protected void mapInputThreeToOutputA() {
+        mapInputToOutput("3", "1");
+    }
+    @FXML
+    protected void mapInputFourToOutputA() {
+        mapInputToOutput("4", "1");
+    }
+    @FXML
+    protected void mapInputFiveToOutputA() {
+        mapInputToOutput("5", "1");
+    }
+    @FXML
+    protected void mapInputSixToOutputA() {
+        mapInputToOutput("6", "1");
+    }
+    @FXML
+    protected void mapInputSevenToOutputA() {
+        mapInputToOutput("7", "1");
+    }
+    @FXML
+    protected void mapInputEightToOutputA() {
+        mapInputToOutput("8", "1");
+    }
+    @FXML
+    protected void mapInputOneToOutputB() {
+        mapInputToOutput("1", "2");
+    }
+    @FXML
+    protected void mapInputTwoToOutputB() {
+        mapInputToOutput("2", "2");
+    }
+    @FXML
+    protected void mapInputThreeToOutputB() {
+        mapInputToOutput("3", "2");
+    }
+    @FXML
+    protected void mapInputFourToOutputB() {
+        mapInputToOutput("4", "2");
+    }
+    @FXML
+    protected void mapInputFiveToOutputB() {
+        mapInputToOutput("5", "2");
+    }
+    @FXML
+    protected void mapInputSixToOutputB() {
+        mapInputToOutput("6", "2");
+    }
+    @FXML
+    protected void mapInputSevenToOutputB() {
+        mapInputToOutput("7", "2");
+    }
+    @FXML
+    protected void mapInputEightToOutputB() {
+        mapInputToOutput("8", "2");
+    }
+    @FXML
+    protected void mapInputOneToOutputC() {
+        mapInputToOutput("1", "3");
+    }
+    @FXML
+    protected void mapInputTwoToOutputC() {
+        mapInputToOutput("2", "3");
+    }
+    @FXML
+    protected void mapInputThreeToOutputC() {
+        mapInputToOutput("3", "3");
+    }
+    @FXML
+    protected void mapInputFourToOutputC() {
+        mapInputToOutput("4", "3");
+    }
+    @FXML
+    protected void mapInputFiveToOutputC() {
+        mapInputToOutput("5", "3");
+    }
+    @FXML
+    protected void mapInputSixToOutputC() {
+        mapInputToOutput("6", "3");
+    }
+    @FXML
+    protected void mapInputSevenToOutputC() {
+        mapInputToOutput("7", "3");
+    }
+    @FXML
+    protected void mapInputEightToOutputC() {
+        mapInputToOutput("8", "3");
+    }
+    @FXML
+    protected void mapInputOneToOutputD() {
+        mapInputToOutput("1", "4");
+    }
+    @FXML
+    protected void mapInputTwoToOutputD() {
+        mapInputToOutput("2", "4");
+    }
+    @FXML
+    protected void mapInputThreeToOutputD() {
+        mapInputToOutput("3", "4");
+    }
+    @FXML
+    protected void mapInputFourToOutputD() {
+        mapInputToOutput("4", "4");
+    }
+    @FXML
+    protected void mapInputFiveToOutputD() {
+        mapInputToOutput("5", "4");
+    }
+    @FXML
+    protected void mapInputSixToOutputD() {
+        mapInputToOutput("6", "4");
+    }
+    @FXML
+    protected void mapInputSevenToOutputD() {
+        mapInputToOutput("7", "4");
+    }
+    @FXML
+    protected void mapInputEightToOutputD() {
+        mapInputToOutput("8", "4");
+    }
+    @FXML
+    protected void mapInputOneToOutputE() {
+        mapInputToOutput("1", "5");
+    }
+    @FXML
+    protected void mapInputTwoToOutputE() {
+        mapInputToOutput("2", "5");
+    }
+    @FXML
+    protected void mapInputThreeToOutputE() {
+        mapInputToOutput("3", "5");
+    }
+    @FXML
+    protected void mapInputFourToOutputE() {
+        mapInputToOutput("4", "5");
+    }
+    @FXML
+    protected void mapInputFiveToOutputE() {
+        mapInputToOutput("5", "5");
+    }
+    @FXML
+    protected void mapInputSixToOutputE() {
+        mapInputToOutput("6", "5");
+    }
+    @FXML
+    protected void mapInputSevenToOutputE() {
+        mapInputToOutput("7", "5");
+    }
+    @FXML
+    protected void mapInputEightToOutputE() {
+        mapInputToOutput("8", "5");
+    }
+    @FXML
+    protected void mapInputOneToOutputF() {
+        mapInputToOutput("1", "6");
+    }
+    @FXML
+    protected void mapInputTwoToOutputF() {
+        mapInputToOutput("2", "6");
+    }
+    @FXML
+    protected void mapInputThreeToOutputF() {
+        mapInputToOutput("3", "6");
+    }
+    @FXML
+    protected void mapInputFourToOutputF() {
+        mapInputToOutput("4", "6");
+    }
+    @FXML
+    protected void mapInputFiveToOutputF() {
+        mapInputToOutput("5", "6");
+    }
+    @FXML
+    protected void mapInputSixToOutputF() {
+        mapInputToOutput("6", "6");
+    }
+    @FXML
+    protected void mapInputSevenToOutputF() {
+        mapInputToOutput("7", "6");
+    }
+    @FXML
+    protected void mapInputEightToOutputF() {
+        mapInputToOutput("8", "6");
+    }
+    @FXML
+    protected void mapInputOneToOutputG() {
+        mapInputToOutput("1", "7");
+    }
+    @FXML
+    protected void mapInputTwoToOutputG() {
+        mapInputToOutput("2", "7");
+    }
+    @FXML
+    protected void mapInputThreeToOutputG() {
+        mapInputToOutput("3", "7");
+    }
+    @FXML
+    protected void mapInputFourToOutputG() {
+        mapInputToOutput("4", "7");
+    }
+    @FXML
+    protected void mapInputFiveToOutputG() {
+        mapInputToOutput("5", "7");
+    }
+    @FXML
+    protected void mapInputSixToOutputG() {
+        mapInputToOutput("6", "7");
+    }
+    @FXML
+    protected void mapInputSevenToOutputG() {
+        mapInputToOutput("7", "7");
+    }
+    @FXML
+    protected void mapInputEightToOutputG() {
+        mapInputToOutput("8", "7");
+    }
+    @FXML
+    protected void mapInputOneToOutputH() {
+        mapInputToOutput("1", "8");
+    }
+    @FXML
+    protected void mapInputTwoToOutputH() {
+        mapInputToOutput("2", "8");
+    }
+    @FXML
+    protected void mapInputThreeToOutputH() {
+        mapInputToOutput("3", "8");
+    }
+    @FXML
+    protected void mapInputFourToOutputH() {
+        mapInputToOutput("4", "8");
+    }
+    @FXML
+    protected void mapInputFiveToOutputH() {
+        mapInputToOutput("5", "8");
+    }
+    @FXML
+    protected void mapInputSixToOutputH() {
+        mapInputToOutput("6", "8");
+    }
+    @FXML
+    protected void mapInputSevenToOutputH() {
+        mapInputToOutput("7", "8");
+    }
+    @FXML
+    protected void mapInputEightToOutputH() {
+        mapInputToOutput("8", "8");
+    }
+    private void mapInputToOutput(String input, String output) { matrix.mapInputToOutput(input, output); }
 
     @FXML
     protected void loadPresetOne() {

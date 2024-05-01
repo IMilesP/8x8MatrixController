@@ -14,6 +14,7 @@ public class App extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 1063, 677);
         scene.getStylesheets().add(getClass().getResource("App.css").toExternalForm());
         stage.setTitle("TESmart 8x8 HDMI Matrix Controller");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
