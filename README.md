@@ -3,7 +3,8 @@
 ### Quickstart
 To run this app follow these steps:
 1. Be connected to same network as the device and have it turned on
-2. 
+2. Have Java 17 or higher
+3. Run App.main
 
 The tests included are INTEGRATION tests not unit tests and can be run as long as the device is on and connected to the network.
 

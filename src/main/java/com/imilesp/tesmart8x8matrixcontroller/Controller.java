@@ -361,14 +361,20 @@ public class Controller {
 
     @FXML
     protected void findMatrix() {
-        connected = matrix.findMatrix(subnet.getText() + mask.getText());
-        if(connected) {
+        String ipAddress = matrix.findMatrix(subnet.getText() + mask.getText());
+        if(ipAddress != null) {
+            this.ipAddress.setText(ipAddress);
+            connected = true;
             syncUIToMatrixConfig();
         }
     }
 
     @FXML
-    protected void mirrorMatrixIO() { matrix.mirrorMatrixIO(); }
+    protected void mirrorMatrixIO() {
+        if(matrix.mirrorMatrixIO()){
+            syncUIToMatrixConfig();
+        }
+    }
 
     @FXML
     protected void mapInputOneToAllOutputs() {

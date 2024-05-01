@@ -78,7 +78,7 @@ public class Matrix {
      * and checks for the appropriate response
      * @param subnetPlusMask (ex: "192.168.5.0/27")
      */
-    public boolean findMatrix(String subnetPlusMask) {
+    public String findMatrix(String subnetPlusMask) {
         SubnetUtils utils = new SubnetUtils(subnetPlusMask);
         String[] allIps = utils.getInfo().getAllAddresses();
         final String[] validIp = new String[1];
@@ -99,10 +99,10 @@ public class Matrix {
                 }
             }).start();
             if(connect(validIp[0], "5000")) {
-                return true;
+                return reqAddress();
             }
         }
-        return false;
+        return null;
     }
 
     /**
