@@ -57,70 +57,70 @@
          <TextArea fx:id="i7" layoutX="10.0" layoutY="346.0" prefHeight="55.0" prefWidth="51.0" promptText="Input 7" text="Input 7" GridPane.rowIndex="7" />
          <TextArea fx:id="i8" prefHeight="55.0" prefWidth="51.0" promptText="Input 8" text="Input 8" GridPane.rowIndex="8" />
           <Button onAction="#resetLabels" prefHeight="56.0" prefWidth="117.0" text="Reset Labels" />
-         <Button mnemonicParsing="false" onAction="#mapInputOneToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-         <Button layoutX="124.0" layoutY="67.0" mnemonicParsing="false" onAction="#mapInputOneToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-         <Button layoutX="238.0" layoutY="67.0" mnemonicParsing="false" onAction="#mapInputOneToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-         <Button mnemonicParsing="false" onAction="#mapInputOneToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-         <Button layoutX="466.0" layoutY="67.0" mnemonicParsing="false" onAction="#mapInputOneToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-         <Button mnemonicParsing="false" onAction="#mapInputOneToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-         <Button mnemonicParsing="false" onAction="#mapInputOneToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-         <Button mnemonicParsing="false" onAction="#mapInputOneToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputTwoToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputThreeToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFourToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputFiveToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSixToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputSevenToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
-         <Button mnemonicParsing="false" onAction="#mapInputEightToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+         <Button fx:id="a1" mnemonicParsing="false" onAction="#mapInputOneToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <Button fx:id="b1" layoutX="124.0" layoutY="67.0" mnemonicParsing="false" onAction="#mapInputOneToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         <Button fx:id="c1" layoutX="238.0" layoutY="67.0" mnemonicParsing="false" onAction="#mapInputOneToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         <Button fx:id="d1" mnemonicParsing="false" onAction="#mapInputOneToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+         <Button fx:id="e1" layoutX="466.0" layoutY="67.0" mnemonicParsing="false" onAction="#mapInputOneToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+         <Button fx:id="f1" mnemonicParsing="false" onAction="#mapInputOneToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+         <Button fx:id="g1" mnemonicParsing="false" onAction="#mapInputOneToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+         <Button fx:id="h1" mnemonicParsing="false" onAction="#mapInputOneToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+         <Button fx:id="a2" mnemonicParsing="false" onAction="#mapInputTwoToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         <Button fx:id="b2" mnemonicParsing="false" onAction="#mapInputTwoToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         <Button fx:id="c2" mnemonicParsing="false" onAction="#mapInputTwoToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+         <Button fx:id="d2" mnemonicParsing="false" onAction="#mapInputTwoToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+         <Button fx:id="e2" mnemonicParsing="false" onAction="#mapInputTwoToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+         <Button fx:id="f2" mnemonicParsing="false" onAction="#mapInputTwoToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+         <Button fx:id="g2" mnemonicParsing="false" onAction="#mapInputTwoToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+         <Button fx:id="h2" mnemonicParsing="false" onAction="#mapInputTwoToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+         <Button fx:id="a3" mnemonicParsing="false" onAction="#mapInputThreeToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <Button fx:id="b3" mnemonicParsing="false" onAction="#mapInputThreeToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+         <Button fx:id="c3" mnemonicParsing="false" onAction="#mapInputThreeToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         <Button fx:id="d3" mnemonicParsing="false" onAction="#mapInputThreeToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+         <Button fx:id="e3" mnemonicParsing="false" onAction="#mapInputThreeToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+         <Button fx:id="f3" mnemonicParsing="false" onAction="#mapInputThreeToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+         <Button fx:id="g3" mnemonicParsing="false" onAction="#mapInputThreeToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+         <Button fx:id="h3" mnemonicParsing="false" onAction="#mapInputThreeToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+         <Button fx:id="a4" mnemonicParsing="false" onAction="#mapInputFourToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         <Button fx:id="b4" mnemonicParsing="false" onAction="#mapInputFourToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         <Button fx:id="c4" mnemonicParsing="false" onAction="#mapInputFourToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+         <Button fx:id="d4" mnemonicParsing="false" onAction="#mapInputFourToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         <Button fx:id="e4" mnemonicParsing="false" onAction="#mapInputFourToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+         <Button fx:id="f4" mnemonicParsing="false" onAction="#mapInputFourToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+         <Button fx:id="g4" mnemonicParsing="false" onAction="#mapInputFourToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+         <Button fx:id="h4" mnemonicParsing="false" onAction="#mapInputFourToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+         <Button fx:id="a5" mnemonicParsing="false" onAction="#mapInputFiveToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+         <Button fx:id="b5" mnemonicParsing="false" onAction="#mapInputFiveToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+         <Button fx:id="c5" mnemonicParsing="false" onAction="#mapInputFiveToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+         <Button fx:id="d5" mnemonicParsing="false" onAction="#mapInputFiveToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+         <Button fx:id="e5" mnemonicParsing="false" onAction="#mapInputFiveToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+         <Button fx:id="f5" mnemonicParsing="false" onAction="#mapInputFiveToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+         <Button fx:id="g5" mnemonicParsing="false" onAction="#mapInputFiveToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+         <Button fx:id="h5" mnemonicParsing="false" onAction="#mapInputFiveToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+         <Button fx:id="a6" mnemonicParsing="false" onAction="#mapInputSixToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         <Button fx:id="b6" mnemonicParsing="false" onAction="#mapInputSixToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+         <Button fx:id="c6" mnemonicParsing="false" onAction="#mapInputSixToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+         <Button fx:id="d6" mnemonicParsing="false" onAction="#mapInputSixToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+         <Button fx:id="e6" mnemonicParsing="false" onAction="#mapInputSixToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+         <Button fx:id="f6" mnemonicParsing="false" onAction="#mapInputSixToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+         <Button fx:id="g6" mnemonicParsing="false" onAction="#mapInputSixToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+         <Button fx:id="h6" mnemonicParsing="false" onAction="#mapInputSixToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+         <Button fx:id="a7" mnemonicParsing="false" onAction="#mapInputSevenToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         <Button fx:id="b7" mnemonicParsing="false" onAction="#mapInputSevenToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+         <Button fx:id="c7" mnemonicParsing="false" onAction="#mapInputSevenToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+         <Button fx:id="d7" mnemonicParsing="false" onAction="#mapInputSevenToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+         <Button fx:id="e7" mnemonicParsing="false" onAction="#mapInputSevenToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+         <Button fx:id="f7" mnemonicParsing="false" onAction="#mapInputSevenToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+         <Button fx:id="g7" mnemonicParsing="false" onAction="#mapInputSevenToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+         <Button fx:id="h7" mnemonicParsing="false" onAction="#mapInputSevenToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+         <Button fx:id="a8" mnemonicParsing="false" onAction="#mapInputEightToOutputA" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+         <Button fx:id="b8" mnemonicParsing="false" onAction="#mapInputEightToOutputB" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+         <Button fx:id="c8" mnemonicParsing="false" onAction="#mapInputEightToOutputC" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+         <Button fx:id="d8" mnemonicParsing="false" onAction="#mapInputEightToOutputD" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+         <Button fx:id="e8" mnemonicParsing="false" onAction="#mapInputEightToOutputE" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+         <Button fx:id="f8" mnemonicParsing="false" onAction="#mapInputEightToOutputF" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+         <Button fx:id="g8" mnemonicParsing="false" onAction="#mapInputEightToOutputG" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+         <Button fx:id="h8" mnemonicParsing="false" onAction="#mapInputEightToOutputH" prefHeight="54.0" prefWidth="115.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
          <Label alignment="TOP_CENTER" prefHeight="59.0" prefWidth="103.0" text="All Outputs" textAlignment="CENTER" GridPane.columnIndex="9">
             <opaqueInsets>
                <Insets />
@@ -141,15 +141,15 @@
    </GridPane>
    <AnchorPane prefHeight="116.0" prefWidth="538.0">
       <children>
-         <TextField fx:id="subnet" layoutY="34.0" prefHeight="25.0" prefWidth="182.0" promptText="Subnet Address (192.168.5.0)" />
-         <TextField fx:id="mask" layoutX="182.0" layoutY="34.0" prefHeight="18.0" prefWidth="78.0" promptText="mask (/27)" />
-         <Button layoutX="260.0" layoutY="34.0" mnemonicParsing="false" onAction="#findMatrix" prefHeight="25.0" prefWidth="107.0" text="Find Matrix" />
-         <TextField fx:id="ipAddress" layoutX="-1.0" layoutY="83.0" prefHeight="25.0" prefWidth="262.0" promptText="IP Address (192.168.5.5)" />
-         <Button layoutX="259.0" layoutY="83.0" onAction="#connect" prefHeight="25.0" prefWidth="107.0" text="Connect" />
-         <Button layoutX="916.0" layoutY="95.0" onAction="#disconnect" prefHeight="25.0" prefWidth="107.0" text="Disconnect" />
-         <Button layoutX="916.0" layoutY="46.0" mnemonicParsing="false" onAction="#muteBuzzer" prefHeight="25.0" prefWidth="107.0" text="Mute Buzzer" />
-         <Button layoutX="916.0" layoutY="71.0" mnemonicParsing="false" onAction="#unmuteBuzzer" prefHeight="25.0" prefWidth="107.0" text="Unmute Buzzer" />
-         <Button layoutX="916.0" layoutY="21.0" mnemonicParsing="false" onAction="#mirrorMatrixIO" prefHeight="25.0" prefWidth="107.0" text="Mirror I/O" />
+         <TextField fx:id="subnet" layoutY="34.0" prefHeight="25.0" prefWidth="204.0" promptText="Subnet Address (192.168.5.0)" />
+         <TextField fx:id="mask" layoutX="204.0" layoutY="34.0" prefHeight="25.0" prefWidth="107.0" promptText="Mask (/27)" />
+         <Button layoutX="311.0" layoutY="34.0" mnemonicParsing="false" onAction="#findMatrix" prefHeight="25.0" prefWidth="107.0" text="Find Matrix" />
+         <TextField fx:id="ipAddress" layoutX="-1.0" layoutY="83.0" prefHeight="25.0" prefWidth="204.0" promptText="IP Address (192.168.5.5)" />
+         <Button layoutX="204.0" layoutY="83.0" onAction="#connect" prefHeight="25.0" prefWidth="107.0" text="Connect" />
+         <Button layoutX="311.0" layoutY="83.0" onAction="#disconnect" prefHeight="25.0" prefWidth="107.0" text="Disconnect" />
+         <Button layoutX="916.0" layoutY="58.0" mnemonicParsing="false" onAction="#muteBuzzer" prefHeight="25.0" prefWidth="107.0" text="Mute Buzzer" />
+         <Button layoutX="916.0" layoutY="83.0" mnemonicParsing="false" onAction="#unmuteBuzzer" prefHeight="25.0" prefWidth="107.0" text="Unmute Buzzer" />
+         <Button layoutX="916.0" layoutY="34.0" mnemonicParsing="false" onAction="#mirrorMatrixIO" prefHeight="25.0" prefWidth="107.0" text="Mirror I/O" />
          <GridPane gridLinesVisible="true" layoutX="462.0" layoutY="22.0" prefHeight="96.0" prefWidth="182.0">
             <columnConstraints>
                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -162,7 +162,7 @@
                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-               <Button mnemonicParsing="false" onAction="#savePresetOne" prefHeight="48.0" prefWidth="70.0" text="1" />
+               <Button mnemonicParsing="false" onAction="#savePresetOne" prefHeight="48.0" prefWidth="48.0" text="1" />
                <Button mnemonicParsing="false" onAction="#savePresetTwo" prefHeight="49.0" prefWidth="69.0" text="2" GridPane.columnIndex="1" />
                <Button mnemonicParsing="false" onAction="#savePresetThree" prefHeight="48.0" prefWidth="63.0" text="3" GridPane.columnIndex="2" />
                <Button mnemonicParsing="false" onAction="#savePresetFour" prefHeight="53.0" prefWidth="70.0" text="4" GridPane.columnIndex="3" />
@@ -185,7 +185,7 @@
                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-               <Button mnemonicParsing="false" onAction="#loadPresetOne" prefHeight="48.0" prefWidth="50.0" text="1" />
+               <Button mnemonicParsing="false" onAction="#loadPresetOne" prefHeight="48.0" prefWidth="79.0" text="1" />
                <Button mnemonicParsing="false" onAction="#loadPresetTwo" prefHeight="48.0" prefWidth="47.0" text="2" GridPane.columnIndex="1" />
                <Button mnemonicParsing="false" onAction="#loadPresetThree" prefHeight="48.0" prefWidth="63.0" text="3" GridPane.columnIndex="2" />
                <Button mnemonicParsing="false" onAction="#loadPresetFour" prefHeight="53.0" prefWidth="70.0" text="4" GridPane.columnIndex="3" />
